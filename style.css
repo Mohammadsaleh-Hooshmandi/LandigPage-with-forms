@@ -44,3 +44,35 @@ html {
     margin-top: 10rem;
     margin-right: 5rem;
 }
+
+.btn-wrapper {
+    position: absolute;
+    top: 5rem;
+    right: 6rem;
+}
+
+.btn {
+    width: 17rem;
+    padding: 1rem 1.5rem;
+    border-radius: 5rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.9rem;
+    letter-spacing: .1rem;
+    border: .2rem solid tomato;
+    color: #fff;
+    margin-right: 2rem;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.btn:hover {
+    transform: translateY(-.3rem);
+}
+
+.login-btn {
+    background-color: tomato;
+}
+
+.signup-btn {
+    background: transparent;
+}
