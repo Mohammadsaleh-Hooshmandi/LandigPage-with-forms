@@ -76,3 +76,88 @@ html {
 .signup-btn {
     background: transparent;
 }
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40rem;
+    background: linear-gradient(rgba(148, 42, 42, 0.8), rgba(185, 129, 129, 0.6)),
+    url(images/bg.jpg) no-repeat center;
+    background-size: cover;
+    border-radius: 2rem;
+}
+
+.login-close-btn,
+.signup-close-btn {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    font-size: 8rem;
+    color: #222;
+    cursor: pointer;
+}
+
+.header {
+    text-align: center;
+    margin: 8rem 0;
+    color: #fff;
+}
+
+.header h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 4rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+
+.header h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.input input {
+    width: 25rem;
+    padding: 1.5rem 1.5rem 1.5rem 5rem;
+    border-radius: 3rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.6rem;
+    color: #ddd;
+}
+
+.input i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 2rem;
+    font-size: 1.8rem;
+    color: #ddd;
+}
+
+.form button {
+    width: 31rem;
+    padding: 1.2rem;
+    border-radius: 3rem;
+    background-color: #d867d8;
+    color: #fff;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    box-shadow: 0 5rem 2rem rgba(0, 0, 0, 0.4);
+    margin: 3rem 0;
+    cursor: pointer;
+}
