@@ -87,6 +87,7 @@ html {
     url(images/bg.jpg) no-repeat center;
     background-size: cover;
     border-radius: 2rem;
+    display: none;
 }
 
 .login-close-btn,
